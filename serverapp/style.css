@@ -1,0 +1,93 @@
+body{
+    background-color: #F7F4EF;
+}
+.banner{ /*Unused*/
+    padding: 0%;
+}
+.navbar{
+    background-color: #235175;
+}
+.wrapper{
+    padding: 40px;
+    border-radius: 5px;
+    color: #F7F4EF;
+    background-color: #235175;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 700px;
+}
+.ptext{
+    margin: auto;
+    color: #F7F4EF;
+    float: right;
+}
+.signupAnchor{
+    margin: auto;
+    color: #F7F4EF;
+}
+.navbarForms{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.form-check{
+    margin: auto;
+    padding: 0%;
+}
+.form-check-input{
+    float: left;
+}
+.intoleranceLabel{
+    margin: 0%;
+    padding: 0%;
+}
+.checkboxForm{
+    padding-left: 40px;
+    padding-right: 25px;
+}
+.longInput{
+    margin: auto;
+    width: 350px;
+}
+.shortInput{
+    margin: auto;
+    width: 350px;
+}
+.selectGroup{
+    margin-bottom: 0%;
+}
+.sexInput{
+    margin: auto;
+    width: 350px;
+}
+.signupErrorLabel{
+    color: #C51244 !important;
+}
+.signupSuccessLabel{
+    color: #43A047;
+}
+.brandName{
+    font-weight: bold;
+}
+.titleHr{
+    color: #F7F4EF;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.row2{
+    height: 250px;
+}

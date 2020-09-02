@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="#">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lora'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container-fluid banner">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a href="#" class="navbar-brand brandName" >Wedieco&trade;</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-4">
+                        <a href="index.html" class="nav-link logout">Logout</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row my-12 homerow">
+        <div class="col homecol">
+            <div class="mainForm">
+                <h1 class="userHeader">Null</h1>
+                <hr class="mainFormHr">
+                <div class="row">
+                    <p class="mainDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laboriosam deleniti dolor. Repellendus harum eos itaque placeat inventore iste nostrum sit, modi expedita magni temporibus laudantium nam accusantium doloremque officia.</p>
+                </div>
+                <div class="row">
+                    <h2>Diet type</h2>
+                </div>
+                <div class="row">
+                    <div class="col mr-3">
+                        <select id="dietDropdown" class="form-control dietDropdown" name="dietDropdown">
+                            <option>Normal</option>
+                            <option>Gluten Free</option>
+                            <option>Ketogenic</option>
+                            <option>Vegetarian</option>
+                            <option>Lacto-Vegetarian</option>
+                            <option>Ovo-Vegetarian</option>
+                            <option>Vegan</option>
+                            <option>Pescetarian</option>
+                            <option>Paleo</option>
+                            <option>Primal</option>
+                            <option>Whole30</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <p class="dietDescription">You will get a recipe based on a normal diet with exceptions for selected tolerances.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-10">
+                        <h2>Intolerances</h2>
+                        <div class="row">
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="egg" class="form-check-input checkbox-inline" value="Egg">
+                                <label for="egg" class="form-check-label">Egg</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="seasame" class="form-check-input checkbox-inline" value="Seasame">
+                                <label for="seasame" class="form-check-label">Seasame</label>
+                            </div>
+                            <div class="col ml-4"> 
+                                <input type="checkbox" name="" id="wheat" class="form-check-input checkbox-inline" value="Wheat">
+                                <label for="wheat" class="form-check-label">Wheat</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="peanut" class="form-check-input checkbox-inline" value="Peanut">
+                                <label for="peanut" class="form-check-label">Peanut</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="gluten" class="form-check-input checkbox-inline" value="Gluten">
+                                <label for="gluten" class="form-check-label">Gluten</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="shellfish" class="form-check-input checkbox-inline" value="Shellfish">
+                                <label for="shellfish" class="form-check-label">Shellfish</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="seafood" class="form-check-input">
+                                <label for="seafood" class="form-check-label">Seafood</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="sulfite" class="form-check-input checkbox-inline" value="Sulfite">
+                                <label for="sulfite" class="form-check-label">Sulfite</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="diary" class="form-check-input checkbox-inline" value="Dairy">
+                                <label for="dairy" class="form-check-label checkbox-inline">Dairy</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="soy" class="form-check-input checkbox-inline" value="Soy">
+                                <label for="soy" class="form-check-label">Soy</label>
+                            </div>
+                            <div class="col ml-4">             
+                                <input type="checkbox" name="" id="treeNut" class="form-check-input checkbox-inline" value="Tree nut">
+                                <label for="treeNut" class="form-check-label">Tree Nut</label>
+                            </div>
+                            <div class="col ml-4">
+                                <input type="checkbox" name="" id="grain" class="form-check-input checkbox-inline" value="Grain">
+                                <label for="grain" class="form-check-label">Grain</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <button type="button" name="signupSubmit" class="btn btn-info pull-right getRecipeBtn">Get recipe</button>
+            </div>
+        </div>
+        <div class="col homecol">
+            <div class="mainForm">
+                <h1 class="recipeHeader">This session's random recipe</h1>
+                <hr class="mainFormHr">
+                <div class="row h-60 picRow">
+                    <div class="col col-2">
+                        <button type="button" name="signupSubmit" class="btn btn-info controlButtons" id="previous">Previous</button>
+                    </div>
+                    <div class="col">
+                        <img src="" alt="Food pic" class="rounded mx-auto d-block foodPic">
+                    </div>
+                    <div class="col col-2">
+                        <button type="button" name="signupSubmit" class="btn btn-info controlButtons" id="next">Next</button>
+                    </div>
+                </div>
+                <hr class="mainFormHr">
+                <div class="row">
+                    <div class="col col-3">
+                        <label for="titleDescription">Title:</label>
+                    </div>
+                    <div class="col">
+                        <label for="" class="titleDescription">Null</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-3">
+                        <label for="minutesDescription">Ready in minutes:</label>
+                    </div>
+                    <div class="col">
+                        <label for="" class="minutesDescription">Null</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-3">
+                        <label for="servingsDescription">Servings:</label>
+                    </div>
+                    <div class="col">
+                        <label for="" class="servingsDescription">Null</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-3">
+                        <label for="healthScoreDescription">Health Score:</label>
+                    </div>
+                    <div class="col">
+                        <label for="" class="healthScoreDescription">Null</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-3">
+                        <label for="sourceDescription">Source URL:</label>
+                    </div>
+                    <div class="col">
+                        <a href="" class="sourceDescription">Null</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>setupHomePage();</script>
+</body>
+</html>
+<!--
+    
+
+    
+  
+"">Ready in minutes:</label>
+bel for="">Servings:</label>
+for="">Instructions:</label>
+l for="">Source URL:</label>
+  <label for="">Null</label>
+  <label for="">Null</label>
+  <label for="">Null</label>
+  <label for="">Null</label>
+-->

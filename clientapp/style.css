@@ -1,0 +1,215 @@
+body, html{
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image{ 
+  background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  /**
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+.banner{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+}
+.navbar{
+  background-color: #342628;
+  width: 100%;
+}
+.navbar-brand{
+  font-family: Lora;
+}
+.body{
+  background-color: #F7F4EF;
+}
+.formWrapper{
+  color: #F7F4EF;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 430px;
+}
+.formWrapper:before{
+  background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-size: cover;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+}
+.brandName{
+  font-family: Lora;
+  font-weight: bold;
+}
+.form-text{
+  margin-bottom: 20px;
+}
+.btn{
+  background-color: #788402 ;
+  border-style: none;
+  float: right;
+}
+.forgotPassword{
+  font-size: smaller;
+}
+.signup{
+  font-size: smaller;
+  color: #788402;
+}
+.row{
+  padding: 0px;
+  margin: 0px;
+  
+  /**border: 3px dotted blue;*/
+}
+.bottom-row{
+  height: 90%;
+}
+.top-row{
+  height: 10%;
+}
+.col{
+  padding: 0px;
+  margin: 0px;
+  
+  /**border: 3px solid red;*/
+}
+.paragraphWrapper{
+  color: #F7F4EF;
+  /**background-color: rgba(0, 0, 0, 0.5);*/
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  /**box-shadow: 0 0 10px #000;*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 430px;
+}
+.loginHr{
+  color: #F7F4EF;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.errorUsername{
+  color: #C51244;
+  margin-bottom: 0%;
+}
+.errorPassword{
+  color: #C51244;
+  margin-bottom: 0%;
+}
+.mainForm{
+  color: #F7F4EF;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 75%;
+  height: 90%;
+}
+.mainForm:before{
+  background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  width: 100%;
+  height: 100%;
+  /**
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  */
+  background-size: cover;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+}
+.homerow{
+  height: 94%;
+  padding: 0px;
+  margin: 0px;
+  /**border: 3px dotted blue;*/
+}
+.homecol{
+  padding: 0px;
+  margin: 0px;
+  
+  /**border: 3px solid red;*/
+}
+.mainFormHr{
+  color: #F7F4EF;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.foodPic{
+  max-width:100%;
+  max-height:100%;
+  margin: 0%;
+}
+.picRow{
+  height: 40%;
+}
+.getRecipeBtn{
+  background-color: #788402 ;
+  border-style: none;
+  float: right;
+}
+.instructionDiv{
+  overflow: auto;
+}
+.sourceDescription{
+  color: inherit;
+}
+.controlButtons{
+  margin-left: 0%;
+  background: #342628;
+  width: 100%;
+  margin-top: 100%;
+}

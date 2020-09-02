@@ -1,0 +1,73 @@
+.signupformWrapper{
+    color: #F7F4EF;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 550px;
+  }
+  .signupformWrapper:before{
+    background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-size: cover;
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+}
+.row2{
+    height: 150px;
+}
+.longInput{
+    margin: auto;
+    width: 350px;
+}
+.shortInput{
+    margin: auto;
+    width: 350px;
+}
+.sexInput{
+    margin: auto;
+    width: 350px;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.signupError{
+    color: #C51244;
+    right: 0;
+    margin-top: 20%;
+    position: absolute;
+}
+.col{
+    padding: 0px;
+    margin: 0px;  
+    /*border: 3px solid red; */
+}
+.row{
+    padding: 0px;
+    margin: 0px; 
+    /* border: 3px dotted blue;*/
+}
+.signupSuccess{
+    color: #4BB543;
+    right: 0;
+    margin-top: 20%;
+    position: absolute;
+}
